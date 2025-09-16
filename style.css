@@ -114,14 +114,17 @@ section{
     align-items: center;
 }
 .main-container .image{
-    width: 500px;
-    height: 80vh;
+    width: 350px;          
+    height: 350px;         
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #e18cd8;
 }
+
 .main-container .image img{
     width: 100%;
+    height: 100%;         
+    object-fit: cover;    
 }
 .main-container .image:hover{
     animation: animate 1.5s ease-in-out infinite;
@@ -289,4 +292,5 @@ html {
 .contact-info a:focus {
   outline: none;
 }
+
 
