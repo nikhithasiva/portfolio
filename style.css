@@ -114,8 +114,8 @@ section{
     align-items: center;
 }
 .main-container .image{
-    width: 350px;          
-    height: 350px;         
+    width: 450px;          
+    height: 450px;         
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #e18cd8;
@@ -292,5 +292,6 @@ html {
 .contact-info a:focus {
   outline: none;
 }
+
 
 
